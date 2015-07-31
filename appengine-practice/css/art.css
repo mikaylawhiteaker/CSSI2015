@@ -1,0 +1,41 @@
+body{
+  background-color: black
+}
+
+h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.works{
+  width: 40%;
+  margin: auto;
+}
+
+p{
+  color: white;
+}
+
+
+title{
+  color: white;
+}
+
+.comments{
+  width: 35%;
+  margin:auto;
+  border: 3px solid white;
+}
+
+#title{
+  text-align: center;
+  font-size: 2em;
+  font-family: monospace;
+}

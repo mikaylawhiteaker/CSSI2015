@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buddy Up!</title>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/homepage.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src ="JavaScript/homepage.js"></script>
+</head>
+<body>
+  <nav>
+    <a href='/homepage'><span id="logo">Buddy Up</span></a>
+    <span id="name">User: {{user}}</span>
+    <a id="logout_url" href="{{logout}}" action = "/titlepage">Sign Out</a>
+  </nav>
+
+<a id="Create" href="/create">Buddy Up!</a>
+<a id="View" href="/view">Events</a>
+<a id="Buddies" href="/buddies">Buddies</a>
+
+
+<footer>
+  <p id="aboutbuddy" >&copy BuddyUp</p>
+</footer>
+</body>
+</html>

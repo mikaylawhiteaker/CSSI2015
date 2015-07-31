@@ -1,0 +1,70 @@
+#name{
+  text-align: center;
+}
+
+#namelink{
+  color:#A2D4F5;
+}
+
+#benny{
+  width: 20%;
+  margin: auto;
+}
+
+#spaceship{
+  display: none;
+  position: absolute;
+  top: 800px;
+  left: 0px;
+}
+
+body{
+  background-image: url(http://incitrio.com/wp-content/uploads/2014/02/Lego1.jpg);
+}
+ figcaption{
+   color: white;
+ }
+
+
+
+.section{
+  border: 2px solid grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  background: #A2D4F5;
+
+
+}
+
+#bio{
+  padding-bottom: 10px;
+}
+
+#outside, #sports, #passion{
+  width:50%;
+}
+
+#outside, #passion{
+  float: left;
+}
+
+#sports{
+  float:right;
+  width:40%;
+  margin-top:10px;
+}
+
+h2{
+  color:red;
+  font-family: 'Inconsolata';
+}
+
+#legos{
+  color:blue;
+  font-size: bold;
+}
+
+#art{
+  color: green;
+}

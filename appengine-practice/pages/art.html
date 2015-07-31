@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src ='https://code.jquery.com/ui/1.11.1/jquery-ui.js'></script>
+  <link rel="stylesheet" type="text/css" href="../css/art.css">
+  <script src = "../javascript/art.js"></script>
+  <title>Mikalya's Art</title>
+</head>
+<body>
+  <h1>ART</h1>
+  <h3>for when there are no words</h3>
+
+  <form class ="works" action="/ArtHandler" method="POST">
+    <p id= title >Power Trip
+    <img id ="work1" src="../photos/legogun.jpg">
+    <br>
+    <p>Comment</p>
+    <input type="text" name = 'comment'>
+    <input type="submit" name = 'submit' id = 'submit'>
+    <p>            </p>
+  </form>
+
+  <div class="comments">
+  <p>Comments</p>
+  <p id = 'comment' >{{comment}}</p>
+
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+body {
+  font-family: monospace;
+  background-color: #19D175;
+}
+
+nav {
+  font-size: 17px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#Create {
+  text-decoration: none;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 6em;
+  display: block;
+  border: 2px solid white;
+  border-radius: 300px;
+  margin-top: 7%;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+}
+
+#View {
+  text-decoration: none;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 6em;
+  display: block;
+  border: 2px solid white;
+  border-radius: 300px;
+  margin-top: 5%;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 4%;
+  margin-bottom: 2%;
+}
+
+#logo {
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  padding: 3px;
+}
+
+#name {
+  margin-left: 60%;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  position: relative;
+}
+
+#logout_url {
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  margin-left: 10%;
+  color: white;
+  font-size: 17px;
+  position: absolute;
+}
+
+
+
+#aboutbuddy {
+  margin-top: 11.5%;
+  text-align: center;
+  font-family: Times;
+  font-size: 0.8em;
+  margin-top: 9%;
+}
+
+#Buddies {
+    text-decoration: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 6em;
+    display: block;
+    border: 2px solid white;
+    border-radius: 300px;
+    margin-top: 5%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    margin-bottom: 2%;
+}

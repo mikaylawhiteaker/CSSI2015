@@ -1,0 +1,145 @@
+.top{
+  font-size: 1em;
+  margin-right: 0%;
+}
+
+#facebook{
+  display: block;
+  margin-left: 72.7%;
+  align-content: center;
+  margin-top: 0%;
+}
+
+.button{
+  text-decoration: none;
+  color: white;
+}
+
+#bottom{
+  padding-right: 23%;
+  padding-left: 23%;
+}
+
+
+#logo {
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  padding: 3px;
+}
+
+#name {
+  margin-left: 60%;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  position: relative;
+}
+
+#logout_url {
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;
+  margin-left: 10%;
+  color: white;
+  font-size: 17px;
+  position: absolute;
+}
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 4em;
+  color: orange;
+  color: white;
+}
+
+
+body {
+  background-color: #12CCB9;
+
+  font-family: monospace;
+  color: white;
+
+  font-size: 1.2em;
+
+  font-weight: 900;
+
+}
+
+.events {
+  position: absolute;
+  right: 400px;
+  width: 300px;
+  margin-top: 9%;
+}
+
+p {
+  margin-right: 5%;
+}
+
+
+.showevents {
+  border-top: 6px solid black;
+  border-bottom: 6px  solid black;
+  border-radius: 90px;
+  padding: 40px;
+  margin-top: 60px;
+  font-size: 1.3em;
+  word-wrap: break-word;
+}
+
+
+/*.scrollToTop{
+	width:100px;
+	height:130px;
+	padding:5px;
+	text-align:center;
+  text-decoration: none;
+	color: #444;
+	position:fixed;
+	top:75px;
+	right:1px;
+	background: url('http://png-2.findicons.com/files/icons/2338/reflection/128/arrow_up_1.png')
+  no-repeat 0px 10px;
+}*/
+
+
+#aboutbuddy {
+  margin-top: 40px;
+  text-align: center;
+  font-family: Times;
+  font-size: 0.8em;
+}
+
+nav {
+  font-size: 17px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+.instructions {
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+}
+
+#activity {
+  text-align: center;
+  font-size: 1.8em;
+  color: black;
+}
+
+
+#google {
+  display: block;
+  margin-left: 72%;
+  align-content: center;
+  margin-top: -3%;
+}

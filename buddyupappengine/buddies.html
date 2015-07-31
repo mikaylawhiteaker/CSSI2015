@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buddy Up!</title>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:400' rel='stylesheet' type='text/css'></link>
+  <link rel="stylesheet" style="text/css" href="stylesheets/buddies.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src ="JavaScript/buddies.js"></script>
+</head>
+<body>
+  <nav>
+    <a href='/homepage'><span id="logo">Buddy Up</span></a>
+    <span id="name">User: {{user}}</span>
+    <a id="logout_url" href="{{logout}}" action = "/titlepage">Sign Out</a>
+  </nav>
+
+  <section id= "bottom">
+  <h1>Buddies</h1>
+  <h2>See what events you've joined.</h2>
+    {% for request in data %}
+      {% if user in request.buddies_users %}
+    <section class="showevents">
+      <div id="activity"> {{request.activity}}: </div>
+      <p id="time_date">{{request.time}}, {{request.date}}</p>
+      <p id="place">{{request.place}}</p>
+      <p id="other">{{request.other}}</p>
+      <p id="buddies">buddies:</p>
+      {%for name in request.buddies%}
+        {{name}},
+      {% endfor %}
+    </br>
+
+    </section>
+    {% endif %}
+    {%endfor%}
+  </section>
+<footer>
+    <p id="aboutbuddy" >&copy BuddyUp</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/madlibs.css">
+
+</head>
+<body>
+  <h1>Day of the Tour</h1>
+  <p>Today my new {{pluralnoun1}} and I went on a trip. We started near
+  the space needle and walk thousands of miles. We saw Pioneer
+  square and {{place1}}. My favorite part was when we left teh atmosphere.
+  <ul>
+    {% for name in team_members %}
+    <li>{{name}} - {{team_members[name]['college']}}</li>
+    {%endfor%}
+
+  </ul>
+</body>
+</html>

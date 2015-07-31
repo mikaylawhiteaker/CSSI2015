@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/addpage.css">
+    <title> BuddyUp! </title> 
+  </head>
+  <body>
+    <div class="top">
+      <nav>
+        <span id="name">User: {{current_user}}</span>
+    </nav>
+    </div>
+    <h1>Buddy Up!</h1>
+    <p> {{buddy_request.activity}}: </p>
+    <p>{{buddy_request.time}}, {{buddy_request.date}}</p>
+    <p>{{buddy_request.place}}</p>
+    <p>{{buddy_request.other}}</p>
+    <p>other buddies:</p>
+    {%for name in buddy_request.buddies%}
+      {{name}},
+    {% endfor %}
+
+  <form class="box" action = "/add" method="post">
+    Your Name: <input type="text" name="fname" required>
+    <input type="hidden" name="requestid" value={{requestid}}>
+    <input type="hidden" name="current_user" value={{current_user}}>
+    <button type="submit"> Add Yourself</button>
+
+  </form>
+  <iframe id="mapsbox"
+    width="600"
+    height="450"
+    frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/search?key=AIzaSyDXJLjAgksWZ-Ckq0ay7pDkwawfyDcB1UY
+  &q={{buddy_request.place}}" allowfullscreen>
+  </iframe>
+</br>
+</br>
+</br>
+
+    <p id="copyright"> &copy Buddy Up!</p>
+  <br/>
+  </body> 
+<html>

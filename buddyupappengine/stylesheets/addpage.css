@@ -1,0 +1,100 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  background-color: #FFA347;
+  color: white;
+}
+
+h1 {
+  color: white;
+  padding-top: 5%;
+}
+
+h3{
+  padding-bottom: 7%;
+}
+
+#firstnamebox {
+  margin-right: 2%;
+  width: 150px;
+  height: 20px;
+  padding-top: 2px;
+}
+
+#submitbutton {
+  width: 250px;
+}
+
+.box {
+  color: white;
+  text-decoration: none;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-size: 3em;
+  font-family: monospace;
+  display: block;
+  border: 2px solid white;
+  border-radius: 200px;
+  margin-top: 5%;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav {
+  font-size: 17px;
+  color: white;
+  margin-right: 92%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#mapsbox {
+  padding-top: 20px;
+  border: 10px;
+  border-style: solid;
+}
+
+#copyright {
+  font-size: 12px;
+  text-align: center;
+}
+
+#sharingbox {
+  text-align: center;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#link {
+  border: 2px solid;
+  border-color: blue;
+  border-radius: 100px;
+  text-align: center;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+}
+
+#facebook {
+  margin-left: 65%;
+  display: block;
+  margin-top: -7%;
+}
+#google{
+  text-align: center;
+  display: block;
+}
